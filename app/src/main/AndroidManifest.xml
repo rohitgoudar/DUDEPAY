@@ -19,6 +19,10 @@
         </activity>
         <activity android:name=".MainActivityLogin" />
         <activity android:name=".MainActivityLogin_studlogin" />
+        <activity
+            android:name=".Teacher_Home_Activity"
+            android:label="@string/title_activity_teacher__home_"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

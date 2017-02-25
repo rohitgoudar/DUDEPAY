@@ -16,6 +16,7 @@ public class MainActivityLogin_studlogin extends AppCompatActivity {
     }
     public void log1(View v)
     {
-
+        Intent i = new Intent(MainActivityLogin_studlogin.this, Teacher_Home_Activity.class);
+        startActivity(i);
     }
 }
